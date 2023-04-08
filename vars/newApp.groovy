@@ -5,7 +5,6 @@ def call(String repoUrl){
             stage('1-build'){
                 steps{
                     sh 'free -g'
-                    sh 'lsblk'
                 }
             }
             stage("Checkout Code") {
